@@ -4,10 +4,10 @@ import os
 option = os.environ['Select_One']
 
 # a = int(input("Enter first Value")
-a = os.environ['First_Value']
+a = int(os.environ['First_Value'])
 
 # b = int(input("Enter Second Value")
-b = os.environ['Second_Value']
+b = int(os.environ['Second_Value'])
 
 
 def add():
