@@ -13,7 +13,7 @@ pipeline {
                 script {
 						  sh """
 						  
-						  /usr/bin/python3 test.py
+						  echo test.py
 						  """
 						  }
             }
