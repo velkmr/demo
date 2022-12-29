@@ -1,5 +1,11 @@
 pipeline {
-    agent any
+    agent {
+		  dockerfile {
+			dir 'scripts'
+			filename 'Dockerfile'
+			label 'docker'
+		   }
+			}
 
     stages {
         stage('Checkout') {
