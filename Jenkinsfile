@@ -10,7 +10,12 @@ pipeline {
         stage('Build'){
             steps{
                 git branch:'master',credentialsId: 'e4269673-0849-4c88-9bb2-ddbad6e14c04', url: 'https://github.com/velkmr/demo.git'
-                bat 'python test.py'
+                script {
+						  sh """
+						  
+						  /usr/bin/python3 test.py
+						  """
+						  }
             }
         }
     }
