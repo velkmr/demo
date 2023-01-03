@@ -19,7 +19,7 @@ def sub():
 
 
 def test():
-    if option == 'A':
+    if option == 'Add':
         print(add())
     else:
         print(sub())
