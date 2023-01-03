@@ -30,11 +30,11 @@ def test():
     if option == 'Add':
         print("Addition of {},{} is ".format(a, b), add())
     elif option == "Sub":
-        print("Subtraction of {},{} ".format(a, b), sub())
+        print("Subtraction of {},{} is ".format(a, b), sub())
     elif option == "Multiply":
-        print("Multiplication of {},{} ".format(a, b), Multiply())
+        print("Multiplication of {},{} is ".format(a, b), Multiply())
     elif option == 'Divide':
-        print("Division of {},{} ".format(a, b), Divide())
+        print("Division of {},{} is ".format(a, b), Divide())
 
 
 test()
