@@ -28,13 +28,13 @@ def Divide():
 
 def test():
     if option == 'Add':
-        print(add())
+        print("Addition of {} , {} is ".format(a, b), add())
     elif option == "Sub":
-        print(sub())
+        print("Subtraction of".format(a, b), sub())
     elif option == "Multiply":
-        print(Multiply())
+        print("Multiplication of".format(a, b), Multiply())
     elif option == 'Divide':
-        print(Divide())
+        print("Division of".format(a, b), Divide())
 
 
 test()
