@@ -11,18 +11,30 @@ b = int(os.environ['Second_Value'])
 
 
 def add():
-    return a+b
+    return a + b
 
 
 def sub():
-    return a-b
+    return a - b
+
+
+def Multiply():
+    return a * b
+
+
+def Divide():
+    return a / b
 
 
 def test():
     if option == 'Add':
         print(add())
-    else:
+    elif option == "Sub":
         print(sub())
+    elif option == "Multiply":
+        print(Multiply())
+    elif option == 'Divide':
+        print(Divide())
 
 
 test()
