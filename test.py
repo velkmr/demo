@@ -12,7 +12,7 @@ a = int(os.environ['First_Value'])
 b = int(os.environ['Second_Value'])
 
 file1 = os.environ("Upload File")
-print(type(file1)
+print(type(file1))
 def add():
     return a + b
 
